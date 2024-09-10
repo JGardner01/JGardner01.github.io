@@ -3,15 +3,14 @@ title: About
 layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-
+<br>
 <h2>About Me</h2>
 <p>
     Hello, I’m James Gardner, a driven final-year MSci Computer Science student at Lancaster University, a top 10 ranked institution in the UK. Set to graduate in the summer of 2025 with a minimum expected high upper second class honours (2:1) degree, my passion for software engineering has led me to develop strong foundations across various languages such as Java, Python, C# and JavaScript. Aspiring for a career as a software engineer, I am dedicated, punctual and detail oriented, always striving to deliver high quality work.
 </p>
 
-
 <h2>Skills</h2>
-<ul class="skill-list">
+<ul>
 	<li><strong>Languages:</strong> Java, Python, C#, C, HTML, CSS, JavaScript</li>
 	<li><strong>Databases:</strong> SQL, MySQL, SQLite, MongoDB</li>
     <li><strong>Tools & Frameworks:</strong> JavaFX, Flask, Node.js, Express.js, Bootstrap, Heroku</li>
@@ -35,9 +34,46 @@ layout: page
 	<li><strong>A Level Maths:</strong> C</li>
 </ul>
 
-<h2>Virtual Internships</h2>
-<p><strong>JP Morgan Chase & Co:</strong> Software Engineering Lite <a href="/assets/virtualInternships/JPMorganChaseLite.pdf" target="_blank">(Certificate)</a></p>
-<p><strong>Verizon:</strong> Cloud Platform <a href="assets/virtualInternships/VerizonCloudPlatform.pdf" target="_blank">(Certificate)</a></p>
+<h2>Relevant Experience</h2>
+
+<h4>Projects</h4>
+<ul>
+    <li>
+        File Organiser
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+    <li>
+        URL Shortener
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+    <li>
+        Ludo
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+    <li>
+        Chrome Extension
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+</ul>
+
+<h4>Portfolio Website</h4>
+<ul>
+    <li></li>
+</ul>
+
+<h4>Virtual Internships</h4>
+<ul>
+	<li><strong>JP Morgan Chase & Co:</strong> Software Engineering Lite <a href="/assets/virtualInternships/JPMorganChaseLite.pdf" target="_blank">(Certificate)</a></li>
+    <li><strong>Verizon:</strong> Cloud Platform <a href="assets/virtualInternships/VerizonCloudPlatform.pdf" target="_blank">(Certificate)</a></li>
+</ul>
 
 
 <h2>Employment</h2>
@@ -55,4 +91,12 @@ layout: page
 	<li>I have won first place in photography at the local village show.</li>
 	<li>I have volunteered at local events such as the annual village produce show and charity coffee mornings, helping set up equipment, organise activities and assisting with meals.</li>
 	<li>I have a full driving license with a clean record.</li>
+</ul>
+
+<h2>Contact Information</h2>
+<ul>
+	<li><strong>Email:</strong> <a href="jamesgardner01@outlook.com" target="_blank">jamesgardner01@outlook.com</a></li>
+	<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/james-m-gardner/" target="_blank">linkedin.com/in/james-m-gardner/</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/JGardner01" target="_blank">github.com/JGardner01</a></li>
+	<li><strong>CV:</strong> <a href="/assets/JAMES_GARDNER_CV.pdf" target="_blank">Open Here</a></li>
 </ul>
