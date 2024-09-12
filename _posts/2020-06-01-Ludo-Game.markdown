@@ -1,0 +1,29 @@
+---
+title: "Ludo - 3D Virtual Board Game (Unity Project)"
+layout: post
+date: 2020-06-01 00:00
+tag: 
+- c#
+- unity
+image: null
+headerImage: false
+projects: true
+hidden: false 
+description: "This is an overview of the ludo game made using C# and Unity."
+category: project
+author: James Gardner 
+externalLink: false
+---
+## Overview
+This project was developed before I began my Computer Science degree at Lancaster University. It is a 3D digital implementation of the classic board game Ludo, built using the Unity game engine and written in C#. The primary focus of this project was on functionality and gameplay mechanics rather than on 3D design and visuals. I aimed to ensure that the core rules of the Ludo game were implemented, with smooth interactions between the game and player. This project was also a valuable learning opportunity, allowing me to deepen my understanding of C# and explore the tools and features of the Unity game engine.
+
+The game is designed to be played by a single player against three computer controlled opponents. Each player takes turns rolling a dice and moving their pieces according to the game’s rules. When the player is able to move a piece, a projection highlights the possible destinations as the player hovers over each piece, providing clear visual feedback and enhancing for the player’s decision making process.
+
+The computer controlled players use a rule based system to make their moves. The game evaluates all possible moves available and assigns a priority value based on factors such as advancing towards the goal, capturing opponent pieces as well as playing defensively by blocking other players from advancing. This system ensures that the opponents make logical decisions, providing a competitive gameplay experience for the player.
+
+## Game Demo
+Here is a demonstration of a playthrough of the game. 
+
+<p align="center">
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/sz_qlRynPAg?si=4Gzq-Nw_lAp6r5FH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
