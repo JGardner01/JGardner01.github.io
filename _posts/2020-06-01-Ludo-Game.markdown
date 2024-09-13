@@ -21,9 +21,17 @@ The game is designed to be played by a single player against three computer cont
 
 The computer controlled players use a rule based system to make their moves. The game evaluates all possible moves available and assigns a priority value based on factors such as advancing towards the goal, capturing opponent pieces as well as playing defensively by blocking other players from advancing. This system ensures that the opponents make logical decisions, providing a competitive gameplay experience for the player.
 
+## Technologies Used
+- Unity Game Engine
+- C# for scriptinng
+- Visual Studio for coding and debugging
+
 ## Game Demo
 Here is a demonstration of a playthrough of the game. 
 
 <p align="center">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/sz_qlRynPAg?si=4Gzq-Nw_lAp6r5FH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+
+## Conclusion
+Working on this project allowed me with valuable experience in C# and expanded my knowledge of object-oriented programming principles. Additionally, the project offered insight into some of the complexities of game development, particularly while implementing the gameplay mechanics according to the Ludo board game's rules and designing the behaviour of the computer controlled opponents. This project served as a great learning opportunity, helping me to improve my programming skills and explore the capabilities of the Unity engine.   
