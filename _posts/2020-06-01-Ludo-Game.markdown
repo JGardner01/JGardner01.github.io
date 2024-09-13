@@ -23,11 +23,11 @@ The computer controlled players use a rule based system to make their moves. The
 
 ## Technologies Used
 - Unity Game Engine
-- C# for scriptinng
+- C# for scripting
 - Visual Studio for coding and debugging
 
 ## Game Demo
-Here is a demonstration of a playthrough of the game. 
+Here is a demonstration of a play through of the game. 
 
 <p align="center">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/sz_qlRynPAg?si=4Gzq-Nw_lAp6r5FH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
