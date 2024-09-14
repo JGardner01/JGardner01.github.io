@@ -19,8 +19,8 @@ externalLink: false
 ## Overview
 Codebreaker is a puzzle game developed in Java that challenges players to guess a randomly generated code made up of seven colours. The game uses Swing to provide the player with a Graphical User Interface (GUI), allowing players to input their guesses for the correct colour sequence within a limited number of attempts. After each guess, the game provides the player with visual feedback to help guide the player towards solving the randomly generated code.
 
-<p align="center">s
-  <img src="../assets/projectPostContent/codebreakerGame/StartingBoard.PNG" alt="starting Codebreaker board" width="80%"/>
+<p align="center">
+  <img src="../assets/projectPostContent/codebreakerGame/StartingBoard.PNG" alt="starting Codebreaker board" width="50%"/>
   <br/>
   <em>Example screenshot of the Codebreaker starting board</em>
 </p>
@@ -43,7 +43,7 @@ Players have a set number of attempts to guess the correct colour sequence. Afte
 To make the game more difficult, the feedback does not reveal which specific selected colours are correct, only that it has occurred. 
 
 <p align="center">
-  <img src="../assets/projectPostContent/codebreakerGame/MidwayComplete.png" alt="Partially completed game board" width="80%"/>
+  <img src="../assets/projectPostContent/codebreakerGame/MidwayComplete.png" alt="Partially completed game board" width="50%"/>
   <br/>
   <em>Example screenshot of the Codebreaker board part way through a game</em>
 </p>
@@ -54,7 +54,7 @@ The game ends either when the player successfully guesses the code or when the p
 In the event of the player guessing the code, a message is displayed to inform the user they were successful.
 
 <p align="center">
-  <img src="../assets/projectPostContent/codebreakerGame/CompleteSuccessful.png" alt="A successfully completed game" width="80%"/>
+  <img src="../assets/projectPostContent/codebreakerGame/CompleteSuccessful.png" alt="A successfully completed game" width="50%"/>
   <br/>
   <em>Example screenshot of a successful game</em>
 </p>
@@ -62,7 +62,7 @@ In the event of the player guessing the code, a message is displayed to inform t
 If the player fails to guess the code within the set number of attempts, a message is displayed, informing the player that the game is finished and correct code sequence is revealed.
 
 <p align="center">
-  <img src="../assets/projectPostContent/codebreakerGame/CompleteFail.png" alt="An unsuccessfully completed game" width="80%"/>
+  <img src="../assets/projectPostContent/codebreakerGame/CompleteFail.png" alt="An unsuccessfully completed game" width="50%"/>
   <br/>
   <em>Example screenshot of a unsuccessful game</em>
 </p>
