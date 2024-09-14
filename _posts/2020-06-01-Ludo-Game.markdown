@@ -5,6 +5,7 @@ date: 2020-06-01 00:00
 tag: 
 - c#
 - unity
+- game development
 image: null
 headerImage: false
 projects: true
@@ -21,10 +22,10 @@ The game is designed to be played by a single player against three computer cont
 
 The computer controlled players use a rule based system to make their moves. The game evaluates all possible moves available and assigns a priority value based on factors such as advancing towards the goal, capturing opponent pieces as well as playing defensively by blocking other players from advancing. This system ensures that the opponents make logical decisions, providing a competitive gameplay experience for the player.
 
-## Technologies Used
-- Unity Game Engine
-- C# for scripting
-- Visual Studio for coding and debugging
+### Technologies Used
+- **Unity Game Engine**
+- **C#:** The language used for scripting.
+- **Visual Studio 2019:** IDE used for coding and debugging.
 
 ## Game Demo
 Here is a demonstration of a play through of the game. 

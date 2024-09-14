@@ -19,11 +19,12 @@ externalLink: false
 ## Overview
 This project is a Python program that implements core network functionalities, including Ping, Traceroute, a Web Server and a Proxy Server, all developed using raw Python sockets. It provided insights into real world networking. Each component was developed to explore and demonstrate key networking concepts, allowing me to deepen my understanding of network communication and networking protocols.
 
-## Technologies Used
+### Technologies Used
 - **Python:** The language used to develop the networking functionalities.
 - **Sockets:** Used for handling network connections.
 - **ICMP Protocol:** For implementing the Ping and Traceroute functionalities.
 - **TCP/IP Protocols:** For developing the Web Server and Proxy Server.
+- **Visual Studio Code:** IDE used for coding and debugging.
 
 ## Ping
 The ping functionality allows the user to input a web address or an IP address, along with optional parameters such as a timeout duration and number of times to ping the destination (count). The program then sends ICMP Echo requests to the specified target and reports key metrics including packet loss percentage as well as the minimum, maximum and average round trip times (RTTs).
