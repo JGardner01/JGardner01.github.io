@@ -1,5 +1,5 @@
 ---
-title: "Network Applications"
+title: "Network Tools and Applications"
 layout: post
 date: 2023-02-24 00:00
 tag: 
@@ -18,6 +18,12 @@ externalLink: false
 ---
 ## Overview
 This project is a Python program that implements core network functionalities, including Ping, Traceroute, a Web Server and a Proxy Server, all developed using raw Python sockets. It provided insights into real world networking. Each component was developed to explore and demonstrate key networking concepts, allowing me to deepen my understanding of network communication and networking protocols.
+
+## Technologies Used
+- **Python:** The language used to develop the networking functionalities.
+- **Sockets:** Used for handling network connections.
+- **ICMP Protocol:** For implementing the Ping and Traceroute functionalities.
+- **TCP/IP Protocols:** For developing the Web Server and Proxy Server.
 
 ## Ping
 The ping functionality allows the user to input a web address or an IP address, along with optional parameters such as a timeout duration and number of times to ping the destination (count). The program then sends ICMP Echo requests to the specified target and reports key metrics including packet loss percentage as well as the minimum, maximum and average round trip times (RTTs).
@@ -51,8 +57,9 @@ The Proxy Server functionality acts as a bridge between the client and a target 
 
 <p align="center"> 
   <img src="../assets/projectPostContent/networkApplications/webProxyImage.PNG" alt="web proxy screenshot" width="80%" />
-  <br />
+  <br/>
   <em>Screenshot of the proxy server running</em>
 </p>
 
 ## Conclusion
+By developing the Ping, Traceroute, Web Server and Proxy Server functionalities within this project, I gained a deeper understanding of how network communication and protocols operate in real applications as well as knowledge of key network tools. This project also provided insights into client-server communication and network troubleshooting. Overall, this project helped enhance my skills in Python and broadened my understanding of networking tools and protocols.
