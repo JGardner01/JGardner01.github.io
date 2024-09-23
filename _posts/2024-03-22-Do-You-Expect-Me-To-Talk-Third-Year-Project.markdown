@@ -19,3 +19,12 @@ author: James Gardner
 externalLink: false
 ---
 ## Overview
+
+
+
+## Demo
+Here is a demonstration of using the application where Connect a desktop, laptop and mobile device are added to personal area network where images can be shared as well as text and video communications can be made.
+
+<p align="center">
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/6wUoPsU0N2Q?si=BgbIMbSAhIHeGntG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
