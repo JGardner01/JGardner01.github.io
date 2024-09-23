@@ -51,7 +51,7 @@ To make the game more difficult, the feedback does not reveal which specific sel
 ### Completing a Game
 The game ends either when the player successfully guesses the code or when the player is unsuccessful and runs out of attempts.
 
-In the event of the player guessing the code, a message is displayed to inform the user they were successful.
+- In the event of the player guessing the code, a message is displayed to inform the user they were successful.
 
 <p align="center">
   <img src="../assets/projectPostContent/codebreakerGame/CompleteSuccessful.png" alt="A successfully completed game" width="50%"/>
@@ -59,7 +59,7 @@ In the event of the player guessing the code, a message is displayed to inform t
   <em>Example screenshot of a successful game</em>
 </p>
 
-If the player fails to guess the code within the set number of attempts, a message is displayed, informing the player that the game is finished and correct code sequence is revealed.
+- If the player fails to guess the code within the set number of attempts, a message is displayed, informing the player that the game is finished and correct code sequence is revealed.
 
 <p align="center">
   <img src="../assets/projectPostContent/codebreakerGame/CompleteFail.png" alt="An unsuccessfully completed game" width="50%"/>
@@ -68,3 +68,4 @@ If the player fails to guess the code within the set number of attempts, a messa
 </p>
 
 ## Conclusion
+Developing the Codebreaker game application, during my first year at Lancaster University, provided me with valuable experience in writing Java programs and creating a Graphical User Interface (GUI) using Swing. This project allowed me to deepen my knowledge of object oriented programming principles while also exploring the complexities of GUI development. This project served as a solid foundation for developing interactive applications and highlights some of my early skills in coding and design.
