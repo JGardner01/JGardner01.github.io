@@ -64,8 +64,9 @@ The game ends either when the player successfully guesses the code or when the p
 <p align="center">
   <img src="../assets/projectPostContent/codebreakerGame/CompleteFail.png" alt="An unsuccessfully completed game" width="50%"/>
   <br/>
-  <em>Example screenshot of a unsuccessful game</em>
+  <em>Example screenshot of an unsuccessful game</em>
 </p>
 
 ## Conclusion
 Developing the Codebreaker game application, during my first year at Lancaster University, provided me with valuable experience in writing Java programs and creating a Graphical User Interface (GUI) using Swing. This project allowed me to deepen my knowledge of object oriented programming principles while also exploring the complexities of GUI development. This project served as a solid foundation for developing interactive applications and highlights some of my early skills in coding and design.
+ 
