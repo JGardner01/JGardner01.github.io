@@ -39,6 +39,12 @@ The auction system uses multiple replica servers to maintain consistent auction 
 
 The system includes a bash file that automates the setup of the auction system, by starting the RMI registry, front end and the replica servers. The script allows users to easily add new replicas, each in a separate process.
 
+<p align="center">
+  <img src="../assets/projectPostContent/passiveReplicationAuctionSystem/SystemDesign.png" alt="system architecture diagram" width="50%"/>
+  <br/>
+  <em>Diagram of the system architecture</em>
+</p>
+
 ## Client Program Functionality
 1. **User Registration:** Clients can register with their email to get a unique user ID. This user ID is necessary for participating in auctions.
 2. **Auction Creation:** Registered users can create new auctions by specifying details such as the item name, description and reserve price.
