@@ -31,12 +31,41 @@ Created using HTML, CSS, JavaScript, Node.js and WebRTC, and then deployed on He
 
 By focusing on these aims the project was able to provide a comprehensive, privacy focused and accessible solution to many of the complexities of modern communication systems.
 
-## System Functionality
+## Project Features
+#### Personal Area Network Creation and Management:
+- **Dynamic Creation:** Users can easily create a Personal Area Network (PAN) by adding multiple devices into single group. This allows the added devices to securely communicate via peer to peer connections between the devices.
+- **Customised PAN Names and Device Names:** PAN names are randomly generated upon creation but, users have the option to assign custom names to both the Personal Area Network (PAN) and each connected device, improving usability and identification of trusted devices. Users can also specify the device type (desktop, laptop, tablet or mobile) to provide additional clarity for device management.
+- **Group Leaders and Management:** Each PAN has one device that is assigned as the leader, where the user can manage device connections and permissions. The leader has the authority to approve or reject new devices, as well as remove unwanted devices and transfer leadership.
+- **Scalable:** The system is designed to support the addition of many devices to the PAN, allowing for flexible and scalable use, without performance degradation.
+
+#### Real Time Peer To Peer Communication:
+- **Voice, Video, and Text Based Communication:** The platform supports secure, real time peer to peer communication between devices, including voice and video calls, as well as text-based messaging. Users can engage in both one on one and group conversations within the PAN.
+- **Direct Peer To Peer Connections:** WebRTC is used to establish direct communication links between devices, bypassing the need for a central server and ensuring fast, private communication. Video and voice calls are sent using WebRTC media streams and text based messages use WebRTC data channels.
+
+#### File Sharing:
+- **File Transfers:** Users can securely share files and media directly with other devices in the PAN via WebRTC data channels, ensuring that all transfers are peer-to-peer and remain private.
+- **Support for Large Files:** The project supports the transfer of large files by dividing them into smaller chunks for efficient and reliable transmission.
+
+#### Interface:
+
+#### No App Based System:
+- **Browser Based Solution:** This project provides a fully browser based solution that eliminates the need for any additional software installation or third party applications. This ensures universal accessibility across all devices that can run a modern web browser and therefore, simplifying the user experience and reducing common security risks commonly associated with third-party applications.
+
+#### Privacy and Security:
+- End-to-End Encryption: WebRTC’s built-in encryption ensures that all voice, video, and data streams are fully protected from interception, safeguarding communications across peer to peer connections.
+- No Data Stored or Passed Through Centralised Servers: The system operates on a peer to peer architecture when communicating with other devices, meaning that no personal information, communication logs, or media files are stored or pass through external servers, keeping user data private and secure.
+- No App Downloads Required: Users can access the platform directly through their web browser, without the need to download or install any third-party applications, reducing common security risks associated with software installations.
+- No Personal Data Required: The system does not require users to input any personal data to make use of its functionalities, maintaining privacy and ensuring that no sensitive information is shared or stored.
+
+
+## System Architecture
+
 
 
 ## Demo
-Here is a demonstration of using the application where Connect a desktop, laptop and mobile device are added to personal area network where images can be shared as well as text and video communications can be made.
-
+Here is a demonstration of using the Do You Expect Me To Talk? project where multiple devices (desktop, laptop and mobile) join a Personal Area Network (PAN) and interact over WebRTC peer to peer connections through text messaging, file sharing and real time video calls.
 <p align="center">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/6wUoPsU0N2Q?si=BgbIMbSAhIHeGntG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+
+## Conclusion
