@@ -47,6 +47,11 @@ By focusing on these aims the project was able to provide a comprehensive, priva
 - **Support for Large Files:** The project supports the transfer of large files by dividing them into smaller chunks for efficient and reliable transmission.
 
 #### Interface:
+- **Intuitive, User Friendly Design:** The interface is designed to be clean and easy to navigate, prioritising usability. Key features such as text, video, and file sharing options are easy to access through easy to find menus.
+- **Dynamic User Feedback:** When a new device attempts to join a PAN, the system provides clear, on screen notifications to the PAN leader, allowing them to promptly accept or reject the request.
+- **Real Time Updates Reflected On Connected Devices:** Changes such as new device connections or change in media streams are reflected in real time across connected devices.
+- **Device Recognition and Display:** Each device is represented with a custom device type icon and name, making it easier for users to manage their personal area network. This visual identification ensures the users can clearly see which device is performing specific actions within the PAN.
+- **Collapsible and Adaptive Design Elements:** Elements such as video streams and chat windows can be collapsed or expanded according to user preferences, providing flexibility and ensuring the best experience regardless of the device being used.
 
 #### No App Based System:
 - **Browser Based Solution:** This project provides a fully browser based solution that eliminates the need for any additional software installation or third party applications. This ensures universal accessibility across all devices that can run a modern web browser and therefore, simplifying the user experience and reducing common security risks commonly associated with third-party applications.
