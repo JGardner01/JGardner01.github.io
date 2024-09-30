@@ -56,12 +56,6 @@ layout: page
             <li></li>
         </ul>
     </li>
-    <li>
-        Chrome Extension
-        <ul>
-            <li></li>
-        </ul>
-    </li>
 </ul>
 
 <h4>Portfolio Website</h4>
@@ -72,7 +66,7 @@ layout: page
 <h4>Virtual Internships</h4>
 <ul>
 	<li><strong>JP Morgan Chase & Co:</strong> Software Engineering Lite <a href="/assets/virtualInternships/JPMorganChaseLite.pdf" target="_blank">(Certificate)</a></li>
-    <li><strong>Verizon:</strong> Cloud Platform <a href="assets/virtualInternships/VerizonCloudPlatform.pdf" target="_blank">(Certificate)</a></li>
+    <li><strong>Verizon:</strong> Cloud Platform <a href="/assets/virtualInternships/VerizonCloudPlatform.pdf" target="_blank">(Certificate)</a></li>
 </ul>
 
 
