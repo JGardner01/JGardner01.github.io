@@ -57,13 +57,33 @@ By focusing on these aims the project was able to provide a comprehensive, priva
 - **Browser Based Solution:** This project provides a fully browser based solution that eliminates the need for any additional software installation or third party applications. This ensures universal accessibility across all devices that can run a modern web browser and therefore, simplifying the user experience and reducing common security risks commonly associated with third-party applications.
 
 #### Privacy and Security:
-- End-to-End Encryption: WebRTC’s built-in encryption ensures that all voice, video, and data streams are fully protected from interception, safeguarding communications across peer to peer connections.
-- No Data Stored or Passed Through Centralised Servers: The system operates on a peer to peer architecture when communicating with other devices, meaning that no personal information, communication logs, or media files are stored or pass through external servers, keeping user data private and secure.
-- No App Downloads Required: Users can access the platform directly through their web browser, without the need to download or install any third-party applications, reducing common security risks associated with software installations.
-- No Personal Data Required: The system does not require users to input any personal data to make use of its functionalities, maintaining privacy and ensuring that no sensitive information is shared or stored.
+- **End-to-End Encryption:** WebRTC’s built-in encryption ensures that all voice, video, and data streams are fully protected from interception, safeguarding communications across peer to peer connections.
+- **No Data Stored or Passed Through Centralised Servers:** The system operates on a peer to peer architecture when communicating with other devices, meaning that no personal information, communication logs, or media files are stored or pass through external servers, keeping user data private and secure.
+- **No App Downloads Required:** Users can access the platform directly through their web browser, without the need to download or install any third-party applications, reducing common security risks associated with software installations.
+- **No Personal Data Required:** The system does not require users to input any personal data to make use of its functionalities, maintaining privacy and ensuring that no sensitive information is shared or stored.
 
+## System Structure
+The Do You Expect Me To Talk? system is designed to enable secure, real time communication through the use of WebRTC. It allows devices to form Personal Area Networks (PANs) and communicate directly without the need for central servers. The architecture of the system revolves around a client side application that utilises WebRTC, which is served by a Node.js Express server, along with a Node.js signalling server. STUN servers assist in NAT traversal and WebRTC handles encrypted peer-to-peer communication including media streams and data channels.
 
-## System Architecture
+### Key Components
+#### Client Application Server
+The client application server, developed using Node.js and Express, is responsible for serving the client side application to the user when requested via a browser. This server acts as the gateway for users to access the application, delivering the necessary HTML, CSS and JavaScript files required to run the user interface and interact with the system.
+#### Client Side Application
+The client side application, created using HTML, CSS and JavaScript, is the user facing part of the system, allowing users to create and manage PANs, then engage in real time communication and media sharing. The application processes user input and interaction, enabling connections and communication with the signalling server through sockets. It also is responsible for creating offers, answers and ICE candidates to initiate WebRTC peer-to-peer connections with other devices enabling communication and sharing to occur.
+#### Signalling Server
+The Node.js signalling server is used for managing the signalling process that enables devices to exchange offers, answers and ICE candidates in order to establish WebRTC peer-to-peer connections. This server is also responsible for the creation and management of Personal Area Networks by transmitting and dealing with management messages such as new device connections, requests and device disconnects. The signalling server is used to manage PANs as it is more reliable than managing the PANs through only peer-to-peer connections, especially when handling device disconnects. Using SocketIO, the server automatically assigns user IDs, sets relevant non-personally identifiable information used later for PAN management. Importantly, no personal communication or media data is shared through the signalling server.
+#### WebRTC Connections
+- Real Time Encrypted Peer-To-Peer Communication: Using WebRTC ensures all communication between devices is encrypted and avoids the need for centralised servers to handle communication.
+- STUN: Google’s STUN servers are used to facilitate NAT traversal, enabling the discovery of public IP addresses, allowing devices behind different networks to connect directly.
+- TURN: TURN servers are not used within this project to prioritise privacy by avoiding relaying media streams and data through external servers.
+- Media Streams: Voice and video streams are transmitted using WebRTC’s media stream capabilities.
+- Data Channels: Text messages and file transfers are sent securely through WebRTC data channels.
+
+<p align="center">
+  <img src="../assets/projectPostContent/doYouExpectMeToTalkTYP/WebRTCConfig.png" alt="System's WebRTC Configuration" />
+  <br/>
+  <em>System's WebRTC Configuration</em>
+</p>
 
 
 
