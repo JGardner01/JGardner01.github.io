@@ -31,6 +31,12 @@ Created using HTML, CSS, JavaScript, Node.js and WebRTC, and then deployed on He
 
 By focusing on these aims the project was able to provide a comprehensive, privacy focused and accessible solution to many of the complexities of modern communication systems.
 
+<p align="center">
+  <img src="../assets/projectPostContent/doYouExpectMeToTalkTYP/WebRTCConfig.png" alt="System's WebRTC Configuration" />
+  <br/>
+  <em>System's WebRTC Configuration</em>
+</p>
+
 ## Project Features
 #### Personal Area Network Creation and Management:
 - **Dynamic Creation:** Users can easily create a Personal Area Network (PAN) by adding multiple devices into single group. This allows the added devices to securely communicate via peer to peer connections between the devices.
@@ -78,12 +84,6 @@ The Node.js signalling server is used for managing the signalling process that e
 - TURN: TURN servers are not used within this project to prioritise privacy by avoiding relaying media streams and data through external servers.
 - Media Streams: Voice and video streams are transmitted using WebRTC’s media stream capabilities.
 - Data Channels: Text messages and file transfers are sent securely through WebRTC data channels.
-
-<p align="center">
-  <img src="../assets/projectPostContent/doYouExpectMeToTalkTYP/WebRTCConfig.png" alt="System's WebRTC Configuration" />
-  <br/>
-  <em>System's WebRTC Configuration</em>
-</p>
 
 ### Personal Area Networks (PANs)
 Personal Area Networks form a core functionality of the Do You Expect Me To Talk? system, allowing users to securely connect multiple devices within their trusted network for real time communication and data sharing. Each PAN is dynamically created and managed through the client side application and the signalling server.
