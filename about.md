@@ -64,7 +64,7 @@ As a store assistant, I primarily work in the beers, wines and spirits departmen
 #### Ayres & Gardner, Construction Labourer (April 2024 - October 2024)
 Assisted in various construction tasks including site preparation, material handling and supporting skilled workers on site.
 
-## Interests and Achievements</h2>
+## Interests and Achievements
 - I enjoy staying active by going to the gym regularly and taking part in the Lancaster University boxing society.</li>
 - I love travelling, exploring new destinations and learning about different cultures.</li>
 - I was awarded Best Student in the year for ICT during Sixth Form.</li>
@@ -72,7 +72,7 @@ Assisted in various construction tasks including site preparation, material hand
 - I have volunteered at local events such as the annual village produce show and charity coffee mornings, helping set up equipment, organise activities and assisting with meals.</li>
 - I have a full driving license with a clean record.</li>
 
-## Contact Information</h2>
+## Contact Information
 - **Email:** <a href="jamesgardner01@outlook.com" target="_blank">jamesgardner01@outlook.com</a>
 - **LinkedIn:** <a href="https://www.linkedin.com/in/james-m-gardner/" target="_blank">linkedin.com/in/james-m-gardner/</a>
 - **GitHub:** <a href="https://github.com/JGardner01" target="_blank">github.com/JGardner01</a>
