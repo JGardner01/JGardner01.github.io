@@ -85,7 +85,22 @@ The Node.js signalling server is used for managing the signalling process that e
   <em>System's WebRTC Configuration</em>
 </p>
 
+### Personal Area Networks (PANs)
+Personal Area Networks form a core functionality of the Do You Expect Me To Talk? system, allowing users to securely connect multiple devices within their trusted network for real time communication and data sharing. Each PAN is dynamically created and managed through the client side application and the signalling server.
+#### How Personal Area Networks work:
+- **Creation:** When a user loads the application or leaves another PAN, a new PAN is automatically created. This simplifies the process of connecting with other devices. Once created, the PAN Node.js server is sent a message from the client side application to generate a unique PAN ID. The Node.js server then stores information such as who the PAN leader is and if a custom name has been assigned. A PAN join code is generated and returned to the client side application allowing other devices to join.
+- **Device Connections:** Devices can join a PAN by entering the unique PAN code displayed in the client side application of any PAN member. Before devices are allowed to connect and join the PAN, the requesting client application sends a request, through the signalling server, to the PAN leader, giving the user the option to approve or reject the connection. If accepted a message is sent through the signalling server telling the requesting device to create a WebRTC connection offer to all other PAN members and begin the WebRTC connection process. If rejected the requesting device is informed that their request was declined and they return back to their PAN alone.
+- **Management:** Each PAN has a leader device (unless changed – the device that created the PAN), responsible for managing the network. The leader can approve or deny device connection requests as well as remove devices or transfer leadership to another device. Once connected, all devices within the PAN establish WebRTC peer-to-peer connections with all other devices, allowing them to communicate directly.
+- **Real Time Updates:** Any changes in the network such as new device connections, disconnections or voice, video or text group communication are reflected across all connected devices. This dynamic update mechanism ensures seamless collaboration within the PAN.
+- **Device Disconnection:** When a device leaves the PAN, the signalling server broadcasts the disconnection event to all remaining devices in the network. The disconnected device’s peer connections are gracefully closed, and its user interface elements are removed from the other devices. If the PAN leader disconnects, leadership is automatically transferred to another device within the PAN, allowing the network to remain operational without disruption. If a device disconnects unintentionally the clients socket disconnects from the signalling server and the signalling server broadcasts the message to initiate device disconnection from the PAN.
 
+### Communication Methods
+- **Voice and Video Communication:** Voice and video communication are facilitated via WebRTC media streams, which allow for real time peer-to-peer calls between devices. Peer-to-peer connections may need to be renegotiated after enabling/disabling streams, ensuring that the connections remain seamless.
+- **Text Based Communication:** Text messaging is facilitated through WebRTC data channels, which are JSONified to allow structured message passing.
+- **File Sharing:** File transfers are handled through WebRTC data channels. To support the transfer of large files, files are broken down into chunks then sent across the peer connection and reassembled on the receiving end after every chunk has been received.
+
+### Deployment
+The system is deployed on Heroku, utilising mono-repo build packs to manage both the frontend and backend within a single repository. This setup streamlines the deployment process, making it easier to push updates and manage both aspects of the application from one central location. The system also uses Node.js build packs to facilitate the deployment of the Node.js Express server and then Node.js signalling server.
 
 ## Demo
 Here is a demonstration of using the Do You Expect Me To Talk? project where multiple devices (desktop, laptop and mobile) join a Personal Area Network (PAN) and interact over WebRTC peer to peer connections through text messaging, file sharing and real time video calls.
@@ -94,3 +109,4 @@ Here is a demonstration of using the Do You Expect Me To Talk? project where mul
 </p>
 
 ## Conclusion
+The Do You Expect Me To Talk? project successfully demonstrates a privacy-focused, no-app communication system built on modern web technologies like WebRTC, Node.js, and Express. By creating secure and dynamic Personal Area Networks (PANs), the system allows users to communicate in real time via voice, video, text, and file sharing, without the need for centralized servers or personal data storage. Overall, this project has deepened my understanding of JavaScript and WebRTC and expanded my knowledge about project development.
