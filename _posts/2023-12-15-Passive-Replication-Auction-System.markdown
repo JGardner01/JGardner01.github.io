@@ -52,7 +52,5 @@ The system includes a bash file that automates the setup of the auction system, 
 4. **Auction Listing:** Clients can view all active auctions, including information such as the item ID, description and highest bid.
 5. **Auction Closure:** Only the auction creator can close the auction. If the reserve price is met, the item is sold to the highest bidder. The winning bidder's information is stored and displayed upon closure.
 
-## Demo
-
 ## Conclusion
 Developing this Passive Replication Auction System project significantly deepened my understanding of distributed systems, particularly in the areas of fault tolerance and replication. Implementing passive replication in this project highlighted the importance of maintaining system state consistency and ensuring a seamless failover process in the event of server failures. This project also provided practical experience with Java RMI, allowing me to explore remote method invocations and the complexities of managing communication within a distributed system. Overall, this project provided a valuable opportunity to explore the intricacies of designing a reliable, scalable system and reinforced key concepts such as redundancy and fault recovery, which are essential for building real-world distributed applications.
