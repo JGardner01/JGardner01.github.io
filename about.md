@@ -65,12 +65,12 @@ As a store assistant, I primarily work in the beers, wines and spirits departmen
 Assisted in various construction tasks including site preparation, material handling and supporting skilled workers on site.
 
 ## Interests and Achievements
-- I enjoy staying active by going to the gym regularly and taking part in the Lancaster University boxing society.</li>
-- I love travelling, exploring new destinations and learning about different cultures.</li>
-- I was awarded Best Student in the year for ICT during Sixth Form.</li>
-- I have won first place in photography at the local village show.</li>
-- I have volunteered at local events such as the annual village produce show and charity coffee mornings, helping set up equipment, organise activities and assisting with meals.</li>
-- I have a full driving license with a clean record.</li>
+- I enjoy staying active by going to the gym regularly and taking part in the Lancaster University boxing society.
+- I love travelling, exploring new destinations and learning about different cultures.
+- I was awarded Best Student in the year for ICT during Sixth Form.
+- I have won first place in photography at the local village show.
+- I have volunteered at local events such as the annual village produce show and charity coffee mornings, helping set up equipment, organise activities and assisting with meals.
+- I have a full driving license with a clean record.
 
 ## Contact Information
 - **Email:** <a href="jamesgardner01@outlook.com" target="_blank">jamesgardner01@outlook.com</a>
